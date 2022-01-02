@@ -6,10 +6,117 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-    	<h1>Sumina Viktoria</h1>
+
+    <header class="header">
+        <div class="header__container">
+            <nav>
+                <ul class="header__menu list">
+                    <li class="header__menu-item"><a href="#contacts">Contacts</a></li>
+                    <li class="header__menu-item"><a href="#about">About me</a></li>
+                    <li class="header__menu-item"><a href="#skills">Skill level</a></li>
+                    <li class="header__menu-item"><a href="#experience">Work experience</a></li>
+                    <li class="header__menu-item"><a href="#education">Education</a></li>
+                    <li class="header__menu-item"><a href="#code">Code example</a></li>
+                    <li class="header__menu-item"><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="main">
+        <div class="main__container">
+            <h1>Viktoria Sumina</h1>
+            <div class="main__photo-container">
+                <img class="main__photo" src="https://hhcdn.ru/photo/639494031.jpeg?t=1641223986&h=5h64cDT3mGn-o8RC1bPDtg" alt="Viktoria Sumina photo">
+            </div>
+
+            <section id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="list">
+                    <li><b>Location:</b> Ivanovo, Russia</li>
+                    <li><b>Email:</b> <a href="mailto:luithim@gmail.com">luithim@gmail.com</a></li>
+                    <li><b>Discord:</b> 1ithium#3378</li>
+                </ul>
+            </section>
+
+            <section id="about">
+                <h2 class="section-title">About me</h2>
+                <p>
+                    I am 23 y.o. business analyst from Ivanovo (Russia). My job expirience in IT is more than a year.
+                    I've been interested in frontend development since I've finished the school, so I've been learning
+                    hard to get into it. I've also finished some courses to get more proficient in my HTML, CSS, JS and Git skills.
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2 class="section-title">Skill level</h2>
+                <ul class="list">
+                    <li>⭐ HTML - 80%</li>
+                    <li>⭐ CSS - 70%</li>
+                    <li>⭐ JavaScript - 20%</li>
+                    <li>⭐ React - 10%</li>
+                    <li>⭐ GIT - 40%</li>
+                </ul>
+            </section>
+
+            <section id="experience">
+                <h2 class="section-title">Work experience</h2>
+                <table>
+                    <tr>
+                        <td>August 2020 — currently <br><i>(1 year 6 months)</i></td>
+                        <td><b>OOO "Vostochniy express"</b> <br>Business analyst / technical support</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="education">
+                <h2 class="section-title">Education</h2>
+                <table>
+                    <tr>
+                        <td><b>2021</b></td>
+                        <td><b>Ural Federal University</b> <br>"Information systems and technologies"</td>
+                    </tr>
+                    <tr>
+                        <td><b>2016-2020</b></td>
+                        <td><b>Innopolis University</b> <br>"Frontend development basics"</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="code">
+                <h2 class="section-title">Code example</h2>
+                <div>
+                    <p class="code-paragraph">Codewars: <a href="https://www.codewars.com/kata/string-ends-with">String ends with?</a></p>
+                    <p class="code-paragraph">Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).</p>
+                    <div class="code">
+                        <code>
+                            function solution(str, ending) { <br>
+                            &nbsp;&nbsp;if(str.slice(-ending.length) === ending || ending === '') {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return true<br>
+                            &nbsp;&nbsp;} else {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return false<br>
+                            &nbsp;&nbsp;}<br>
+                            }
+                        </code>
+                    </div>
+                </div>
+            </section>
+
+            <section id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="list">
+                    <li>Russian - native</li>
+                    <li>English - C1 Advanced <a href="https://www.efset.org/cert/HQihbF">(EF SET Certificate™)</a></li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p>Github: <a href="https://github.com/1ithium">1ithium</a></p>
+            <p>All rights reserved, 2022.</p>
+            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="rs_school_js" class="footer__logo"></a>
+        </div>
+    </footer>
 </body>
 </html>
