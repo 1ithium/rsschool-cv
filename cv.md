@@ -15,17 +15,36 @@ I am 23 y.o. business analyst from Ivanovo (Russia). My job expirience in IT is 
 ⭐ React - 10% </br>
 ⭐ GIT - 40% </br>
 
+
 ## Work experience     
 
 |August 2020 — currently  |**OOO "Vostochniy express"**             |
-|-------------------------|-----------------------------------------|  
-|*(1 year 6 months)*      |*Business analyst / technical support*   |
+|------------------------:|-----------------------------------------|  
+|(1 year 6 months)        |Business analyst / technical support     |
 
 
 ## Education
 | Year      |Education                              |  
-|-----------|---------------------------------------|  
+|----------:|---------------------------------------|  
 |2021       |**Innopolis**                          |
 |           |"Frontend development basics"          |                   
 |2016-2020  |**Ural Federal University**</br>       |
 |           |"Information systems and technologies" |
+
+
+## Code Example
+**Codewars:** [String ends with?](https://www.codewars.com/kata/string-ends-with) </br>
+*Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).*
+```javascript
+function solution(str, ending){
+  if(str.slice(-ending.length) === ending || ending === '') {
+    return true
+  } else {
+    return false
+  }
+}
+```
+
+## Languages
+- Russian - native
+- English - C1 Advanced [EF SET Certificate™](https://www.efset.org/cert/HQihbF)
