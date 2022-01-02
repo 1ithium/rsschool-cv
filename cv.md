@@ -1,4 +1,5 @@
 # Viktoria Sumina 
+![Viktoria Sumina photo](https://ivanovo.hh.ru/photo/639494030.jpeg?t=1641231222&h=lfJWanRNc9bJTqg2ZS8MOA)
 
 ## Contacts
 * **Location:** Ivanovo, Russia
