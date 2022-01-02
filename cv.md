@@ -22,16 +22,15 @@ I am 23 y.o. business analyst from Ivanovo (Russia). My job expirience in IT is 
 
 
 ## Work experience     
-|August 2020 — currently  |**OOO "Vostochniy express"**             |
-|------------------------:|-----------------------------------------|  
-|(1 year 6 months)        |Business analyst / technical support     |
+* August 2020 — currently (1 year 6 months)          
+**OOO "Vostochniy express"** / Business analyst
 
 
-## Education
-Year       | University / Program                                  
-----------:|--------------------------------------- 
-2021       |**Innopolis University** / "Frontend development basics" 
-2016-2020  |**Ural Federal University** / "Information systems and technologies"
+## Education                             
+
+* **Innopolis University** / "Frontend development basics", 2021
+
+* **Ural Federal University** / "Information systems and technologies", 2016-2020
 
 
 ## Code Example
