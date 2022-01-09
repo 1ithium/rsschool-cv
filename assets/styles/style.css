@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.header {
+    background-color: #2E3559;
+}
+
+.header__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__menu a {
+    display: block;
+    padding: 18px 12px;
+    color: white;
+}
+
+.header__menu-item:hover {
+    background-color: #D90D32;
+}
+
+.header__menu-item:active {
+    opacity: 0.8;
+}
+
+#contacts.main__photo-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__photo {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+    padding-bottom: 18px;
+}
+
+.main {
+    background-color: whitesmoke;
+}
+
+.main__container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list a {
+    font-weight: bold;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section a {
+    color: #2E3559;
+    font-weight: bold;
+}
+
+section a:hover {
+    color: #D90D32;
+}
+
+section a:active {
+    opacity: 0.8;
+}
+
+.section-title {
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+table {
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid whitesmoke;
+    text-align: right;
+    padding: 15px 20px;
+}
+
+.code {
+    padding: 20px;
+    background-color: white;
+}
+
+.code-paragraph {
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #2E3559;
+    text-align: center;
+    color: white;
+}
+
+.footer__container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.footer__container p {
+    font-size: 14px;
+    color: #cccccc;
+    padding: 10px 0;
+}
+
+.footer__container a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer__container a:hover {
+    font-size: 14px;
+    color: #D90D32;
+}
+
+.footer__container a:active {
+    opacity: 0.8;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    height: 50px;
+    padding-top: 10px;
+}
